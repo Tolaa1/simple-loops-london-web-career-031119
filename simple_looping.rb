@@ -1,8 +1,10 @@
 # REMEMBER: print your output to the terminal using 'puts'
 
 def loop_iterator(number_of_times)
-  phrase = "Welcome to Flatiron School's Web Development Course!"
-  
+  loop do 
+ puts  phrase = "Welcome to Flatiron School's Web Development Course!"
+ answer = gets.chomp
+  breake if answer == 10 
 end
 
 def times_iterator(number_of_times)
